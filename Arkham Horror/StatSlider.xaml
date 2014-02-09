@@ -31,7 +31,7 @@
             <TextBlock FontSize="42" x:Name="bottomValueText"></TextBlock>
         </Border>
         <Button Grid.Row="0" x:Name="statsRight" Width="100" Height="100" Grid.Column="3" FontSize="42" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center">&gt;</Button>
-        <TextBox Text="{Binding FirstValue, ElementName=statSlider, Mode=TwoWay}" Grid.Row="0" Grid.Column="4" FontSize="42" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
-        <TextBox Text="{Binding SecondValue, ElementName=statSlider, Mode=TwoWay}" Grid.Row="1" Grid.Column="4" FontSize="42" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+        <TextBox InputScope="Number" Text="{Binding FirstValue, ElementName=statSlider, Mode=TwoWay}" Grid.Row="0" Grid.Column="4" FontSize="42" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+        <TextBox InputScope="Number" Text="{Binding SecondValue, ElementName=statSlider, Mode=TwoWay}" Grid.Row="1" Grid.Column="4" FontSize="42" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
     </Grid>
 </UserControl>
